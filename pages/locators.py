@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+	LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
 class LoginPageLocators():
 	LOGIN_FORM = (By.CSS_SELECTOR, ".login_form")
@@ -16,3 +16,8 @@ class ProductPageLocators():
 class BasketPageLocators():
 	ADDED_PRODUCT_NAME = (By.CSS_SELECTOR ,".alert-safe:nth-child(1) strong")
 	BASKET_TOTAL = (By.CSS_SELECTOR ,".alert-safe:nth-child(3) strong")
+	SUCCESS_MESSAGE = (By.CSS_SELECTOR ,".alert")
+
+class BasePageLocators():
+	LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+	LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
