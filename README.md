@@ -1,6 +1,6 @@
 ### Test suite for website [http://selenium1py.pythonanywhere.com/](http://selenium1py.pythonanywhere.com/)
 
-Uploaded for review by [Stepik](https://stepik.org) course [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/lesson/201964/) members
+Uploaded for review by [Stepik](https://stepik.org) course [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/course/575) members
 
 Tests are made with *PageObject* pattern using *Python*, *Pytest*, *Selenium* and *ChromeDriver*
 The packages versions are listed in [requirements.txt](/requirements.txt)
